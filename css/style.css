@@ -34,6 +34,7 @@ figcaption{
 .model{
     font-size: 12px;
     font-weight: bold;
+    cursor: pointer;
 }
 .red-price{
     font-size: 11px;
@@ -79,4 +80,21 @@ figcaption{
 }
 .left{
     left: 5%;
+}
+.second-pic{
+    position: absolute;
+    left: 5%;
+    display: none;
+}
+.box:hover .second-pic{
+    display: inline-block;
+}
+.box:hover img{
+    box-shadow: 5px 5px 5px lightgray;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+.like:hover{
+    color: red;
+    cursor: pointer;
 }
