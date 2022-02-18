@@ -5,12 +5,14 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+/*Righe*/
 .row{
     width: 50%;
     margin: 20px auto;
     height: 350px;
     font-size: 0px;
 }
+/*Immagini*/
 .box{
     width: calc(100%/3);
     height: 100%;
@@ -23,6 +25,7 @@ img{
     width: 90%;
     height: 90%;
 }
+/*Descrizione*/
 figcaption{
     margin-top: 5px;
     margin-left: 5%;
@@ -46,6 +49,7 @@ figcaption{
     font-weight: bold;
     text-decoration: line-through;
 }
+/*Etichette*/
 .like{
     width: 25px;
     height: 25px;
@@ -81,8 +85,10 @@ figcaption{
 .left{
     left: 5%;
 }
+/*Funzioni di hover*/
 .second-pic{
     position: absolute;
+    top: 0;
     left: 5%;
     display: none;
 }
