@@ -1,0 +1,46 @@
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.row{
+    width: 50%;
+    margin: 20px auto;
+    height: 350px;
+    font-size: 0px;
+}
+.box{
+    width: calc(100%/3);
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+img{
+    width: 90%;
+    height: 90%;
+}
+figcaption{
+    margin-top: 5px;
+    margin-left: 5%;
+    text-align: left;
+}
+.brand{
+    font-size: 10px;
+}
+.model{
+    font-size: 12px;
+    font-weight: bold;
+}
+.red-price{
+    font-size: 11px;
+    font-weight: bold;
+    color: red;
+}
+.black-price{
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: line-through;
+}
